@@ -9,12 +9,22 @@ install:
 
 script:
   - type anyenv
+  - anyenv install crenv
   - anyenv install denv
+  - anyenv install erlenv
+  - anyenv install exenv
   - anyenv install goenv
+  - anyenv install hsenv
   - anyenv install jenv
   - anyenv install luaenv
+  - anyenv install nenv
+  - anyenv install ndenv
   - anyenv install nodenv
   - anyenv install phpenv
   - anyenv install plenv
   - anyenv install pyenv
   - anyenv install rbenv
+  - anyenv install Renv
+  - anyenv install sbtenv
+  - anyenv install scalaenv
+  - anyenv install swiftenv
