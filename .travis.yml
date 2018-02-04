@@ -1,0 +1,20 @@
+language: c
+
+before_install:
+  - cp -a . ~/.anyenv
+install: 
+  - echo 'export PATH="${HOME}/.anyenv/bin:${PATH}"' >> ~/.${SHELL}_profile
+  - echo 'eval "$(anyenv init -)"' >> ~/.${SHELL}_profile
+  - . ~/.${SHELL}_profile
+
+script:
+  - type anyenv
+  - anyenv install denv
+  - anyenv install goenv
+  - anyenv install jenv
+  - anyenv install luaenv
+  - anyenv install nodenv
+  - anyenv install phpenv
+  - anyenv install plenv
+  - anyenv install pyenv
+  - anyenv install rbenv
