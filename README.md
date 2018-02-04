@@ -4,7 +4,7 @@ This is a simple wrapper for [rbenv](https://github.com/sstephenson/rbenv) style
 
 ## INSTALL
 
-    $ git clone https://github.com/riywo/anyenv ~/.anyenv
+    $ git clone https://github.com/ndxbn/anyenv ~/.anyenv
     $ echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.your_profile
     $ echo 'eval "$(anyenv init -)"' >> ~/.your_profile
     $ exec $SHELL -l
@@ -23,14 +23,14 @@ This is a simple wrapper for [rbenv](https://github.com/sstephenson/rbenv) style
     $ exec $SHELL -l
     …
     $ anyenv version
-    denv: 2.063 (set by /home/riywo/.anyenv/envs/denv/version)
-    jenv: system (set by /home/riywo/.anyenv/envs/jenv/version)
-    luaenv: system (set by /home/riywo/.anyenv/envs/luaenv/version)
-    ndenv: v0.10.12 (set by /home/riywo/.anyenv/envs/ndenv/version)
-    phpenv: system (set by /home/riywo/.anyenv/envs/phpenv/version)
-    plenv: 5.18.0 (set by /home/riywo/.anyenv/envs/plenv/version)
-    pyenv: venv27 (set by /home/riywo/.anyenv/envs/pyenv/version)
-    rbenv: 1.9.3-p327 (set by /home/riywo/.anyenv/envs/rbenv/version)
+    denv: 2.063 (set by /home/ndxbn/.anyenv/envs/denv/version)
+    jenv: system (set by /home/ndxbn/.anyenv/envs/jenv/version)
+    luaenv: system (set by /home/ndxbn/.anyenv/envs/luaenv/version)
+    ndenv: v0.10.12 (set by /home/ndxbn/.anyenv/envs/ndenv/version)
+    phpenv: system (set by /home/ndxbn/.anyenv/envs/phpenv/version)
+    plenv: 5.18.0 (set by /home/ndxbn/.anyenv/envs/plenv/version)
+    pyenv: venv27 (set by /home/ndxbn/.anyenv/envs/pyenv/version)
+    rbenv: 1.9.3-p327 (set by /home/ndxbn/.anyenv/envs/rbenv/version)
     goenv: 1.2.2
 
 ## PLUGINS
@@ -67,5 +67,5 @@ anyenv uses rbenv code
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/riywo/anyenv/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ndxbn/anyenv/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
