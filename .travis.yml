@@ -17,8 +17,6 @@ script:
   - anyenv install hsenv
   - anyenv install jenv
   - anyenv install luaenv
-  - anyenv install nenv
-  - anyenv install ndenv
   - anyenv install nodenv
   - anyenv install phpenv
   - anyenv install plenv
