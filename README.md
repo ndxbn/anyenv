@@ -1,4 +1,4 @@
-# anyenv - all in one for \*\*env
+# anyenv - all in one for \*\*env [![Build Status](https://travis-ci.org/ndxbn/anyenv.svg?branch=master)](https://travis-ci.org/ndxbn/anyenv)
 
 This is a simple wrapper for [rbenv](https://github.com/sstephenson/rbenv) style environment managers. You don't have to git clone or modify your shell profile for each \*\*env anymore if you install anyenv.
 
