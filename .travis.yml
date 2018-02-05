@@ -1,4 +1,10 @@
-language: c
+language: bash
+addons:
+  apt:
+    sources:
+    - debian-sid    # Grab ShellCheck from the Debian repo
+    packages:
+    - shellcheck
 
 before_install:
   - cp -a . ~/.anyenv
@@ -26,3 +32,6 @@ script:
   - anyenv install sbtenv
   - anyenv install scalaenv
   - anyenv install swiftenv
+  # shell check
+  - shellcheck ./bin/anyenv
+  - shellcheck ./libexec/*
