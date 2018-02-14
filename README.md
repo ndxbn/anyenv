@@ -5,12 +5,42 @@ You don't have to git clone or modify your shell profile for each \*\*env anymor
 
 ## Install
 
+### bash
+
 ```bash
 git clone https://github.com/ndxbn/anyenv ~/.anyenv
-echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.your_profile
-echo 'eval "$(anyenv init -)"' >> ~/.your_profile
+echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(anyenv init -)"' >> ~/.bash_profile
 exec $SHELL -l
 ```
+
+### zsh
+
+```zsh
+git clone https://github.com/ndxbn/anyenv ~/.anyenv
+echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(anyenv init -)"' >> ~/.zshrc
+exec $SHELL -l
+```
+
+### ksh
+
+```ksh
+git clone https://github.com/ndxbn/anyenv ~/.anyenv
+echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.profile
+echo 'eval "$(anyenv init -)"' >> ~/.profile
+exec $SHELL -l
+```
+
+### fish
+
+```fish
+git clone https://github.com/ndxbn/anyenv ~/.anyenv
+echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.config/fish/config.fish
+echo 'eval "$(anyenv init -)"' >> ~/.config/fish/config.fish
+exec $SHELL -l
+```
+
 
 ## Usage
 
