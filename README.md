@@ -10,8 +10,8 @@ You don't have to git clone or modify your shell profile for each \*\*env anymor
 ```bash
 git clone https://github.com/ndxbn/anyenv ~/.anyenv
 echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.bash_profile
-echo 'eval "$(anyenv init -)"' >> ~/.bash_profile
-exec $SHELL -l
+echo 'eval "$(anyenv init - bash)"' >> ~/.bash_profile
+exec bash -l
 ```
 
 ### zsh
@@ -19,28 +19,9 @@ exec $SHELL -l
 ```zsh
 git clone https://github.com/ndxbn/anyenv ~/.anyenv
 echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.zshrc
-echo 'eval "$(anyenv init -)"' >> ~/.zshrc
-exec $SHELL -l
+echo 'eval "$(anyenv init - zsh)"' >> ~/.zshrc
+exec zsh -l
 ```
-
-### ksh
-
-```ksh
-git clone https://github.com/ndxbn/anyenv ~/.anyenv
-echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.profile
-echo 'eval "$(anyenv init -)"' >> ~/.profile
-exec $SHELL -l
-```
-
-### fish
-
-```fish
-git clone https://github.com/ndxbn/anyenv ~/.anyenv
-echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.config/fish/config.fish
-echo 'eval "$(anyenv init -)"' >> ~/.config/fish/config.fish
-exec $SHELL -l
-```
-
 
 ## Usage
 
@@ -50,8 +31,9 @@ exec $SHELL -l
 anyenv install rbenv
 anyenv install phpenv
 anyenv install ndenv
-exec $SHELL -l
 ```
+
+and restart current shell ( e.g. `exec bash -l` , `exec zsh -l` )
 
 ## Available \*\*env
 see [share/anyenv-install directory](./share/anyenv-install).
