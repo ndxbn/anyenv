@@ -26,3 +26,6 @@ script:
   - anyenv install sbtenv
   - anyenv install scalaenv
   - anyenv install swiftenv
+#
+notifications:
+    slack: ndxbn:3Z4ySyvrvOZXedOpwXXIAYH1
